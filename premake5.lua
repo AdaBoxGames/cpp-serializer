@@ -9,7 +9,7 @@ workspace "simple-cpp-serializer"
 
 
 
-project "cpp-serializer"
+project "simple-cpp-serializer"
     kind "StaticLib"
     language "C++"
     cppdialect "C++20"
@@ -31,6 +31,7 @@ project "cpp-serializer"
 
     filter "system:windows"
         systemversion "latest"
+        location "simple-cpp-serializer"
 
         defines
         {
