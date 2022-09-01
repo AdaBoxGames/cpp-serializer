@@ -21,7 +21,7 @@ project "simple-cpp-serializer"
     files
     {
         "include/scs/*.hpp",
-        "src/*.cpp"
+        "include/scs/*.inl"
     }
 
     includedirs
