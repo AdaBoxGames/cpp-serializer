@@ -31,6 +31,7 @@ project "cpp-serializer"
 
     filter "system:windows"
         systemversion "latest"
+        location "simple-cpp-serializer"
 
         defines
         {
